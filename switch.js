@@ -22,7 +22,7 @@ const startF = function () {
         };
 
         refs.bodyColor.style.backgroundColor = `${
-            colors[randomIntegerFromInterval(0, 5)]
+            colors[randomIntegerFromInterval(0, colors.length - 1)]
         }`;
     }, 1000);
 
